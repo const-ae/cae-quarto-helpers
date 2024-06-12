@@ -1,7 +1,7 @@
 return {
     ['fixme'] = function(args, kwargs, meta)
       if quarto.doc.is_format("pdf") then
-        return pandoc.RawBlock('tex', '{\\color{red}test}')
+        return pandoc.RawBlock('tex', '{\\color{red}FIXME}')
       elseif quarto.doc.is_format("html") then
         return pandoc.RawBlock('html', '<span style="color:red">FIXME</span>')
       elseif quarto.doc.is_format("docx") then
