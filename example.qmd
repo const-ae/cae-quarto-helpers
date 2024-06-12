@@ -1,0 +1,17 @@
+---
+title: "Cae-quarto-helpers Example"
+format:
+    native: default
+    html: default
+    pdf: default
+    docx: default
+---
+
+## Heading
+
+{{< cae-quarto-helpers >}}
+
+{{< fixme >}}
+
+I can put the {{< fixme >}} also inline (I hope)
+
